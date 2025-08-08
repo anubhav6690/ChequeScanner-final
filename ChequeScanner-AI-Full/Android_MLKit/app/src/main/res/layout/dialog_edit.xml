@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <EditText android:id="@+id/et_cheque_no" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Cheque No" />
+    <EditText android:id="@+id/et_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Date" />
+    <EditText android:id="@+id/et_bank" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Bank Name" />
+    <EditText android:id="@+id/et_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Amount" />
+    <EditText android:id="@+id/et_payee" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Payee" />
+</LinearLayout>
